@@ -66,7 +66,7 @@ def rm_dup(path, exps):
 
 if __name__=='__main__':
     print('    *******A simple Python script to remove duplicate files*******')
-    print('    *                      Coded by monrocoury                        *')
+    print('    *                      Created for the lazy people by Tawanda Muzanenhamo*')
     print('    *              The script relies on the fact the fact             *')
     print('    *        that if 2 files have the same md5checksum                *')
     print('    *                  they most likely have the same content         *')
@@ -79,3 +79,4 @@ if __name__=='__main__':
     e = options.ext2ignore
 
     rm_dup(p, e)
+
